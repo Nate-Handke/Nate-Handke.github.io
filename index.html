@@ -17,7 +17,7 @@
       --text: #c9c8c8;
       --accent: #e63946;
 
-      --filigree-opacity: 0.12;
+      --filigree-opacity: 0.2;
     }
 
     * {
@@ -265,11 +265,11 @@
        MOBILE
        ===================================== */
     @media (max-width: 768px) {
-      .page-frame::before,
-      .page-frame::after,
-      .top-filigree {
-        display: none;
-      }
+        .page-frame::before,
+        .page-frame::after {
+          opacity: 0.03;      /* very subtle */
+          width: 40px;        /* thinner */
+        }
 
       .project {
         grid-template-columns: 1fr;
@@ -378,3 +378,4 @@
 
 </body>
 </html>
+
