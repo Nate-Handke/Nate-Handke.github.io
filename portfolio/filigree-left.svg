@@ -1,0 +1,12 @@
+<svg viewBox="0 0 120 1200" xmlns="http://www.w3.org/2000/svg">
+  <path d="
+    M60 0
+    C30 120, 90 240, 60 360
+    C30 480, 90 600, 60 720
+    C30 840, 90 960, 60 1200
+  "
+    fill="none"
+    stroke="#f4f1ed"
+    stroke-width="2"
+    opacity="0.4"/>
+</svg>
